@@ -1,4 +1,5 @@
-    function kilometerToMeter(kilo) {
+
+function kilometerToMeter(kilo) {
         
         if(kilo < 0){
            return "Please enter positive number";
@@ -19,7 +20,6 @@
         var laptopDam = laptop * 500;
         return ghoriDam+phoneDam+laptopDam; 
      }
-
      var result2 = budgetCalculator(2,4,2); //test budgetCalculator
      console.log(result2);
 
@@ -49,7 +49,6 @@
             return price;
         } 
     }
-
     var totalPrice = hotelCost(21); // test hotelCost function
     console.log(totalPrice);
 
@@ -68,7 +67,6 @@
         }
         return maxName;
     }
-
     var arrayName = ['Jamal','Kamal','Soniya','NiloyBhai']; //check megaFriend function
     var maxNameLength = megaFriend(arrayName);
     console.log(maxNameLength);
